@@ -1,0 +1,28 @@
+.select {
+    fill: red;
+}
+.min {
+    fill: red;
+}
+.sorted {
+    fill: red;
+}
+.working{
+    background-color: red;
+    color: white;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+ul li{
+    width: 240px;
+}
+ul li + li + li{
+    margin-left: 20px;
+}
+ul li:last-child{
+    margin-left: 0;
+}
