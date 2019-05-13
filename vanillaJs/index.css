@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.rects div {
+    position: absolute;
+    background-color: #cecece;
+    border: solid 1px black;
+}
+
+.labels span {
+    position: absolute;
+    text-align: center;
+}
+
+.select {
+    background-color: #6699ff !important;
+}
+
+.min {
+    background-color: #ff6666 !important;
+}
+
+.sorted {
+    background-color: #ffff99 !important;
+}
+
+.step {
+    background-color: #ff6666;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul li span{
+    padding:1px 4px;
+}
+ul li + li + li{
+    margin-left: 20px;
+}
+ul li:last-child{
+    margin-left: 0;
+}
